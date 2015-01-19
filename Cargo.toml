@@ -9,7 +9,8 @@ documentation = "http://ironframework.io/doc/mount/index.html"
 license = "MIT"
 
 [dependencies]
-iron = "*"
 sequence_trie = "*"
 url = "*"
 
+[dependencies.iron]
+git = "https://github.com/jihokoo/iron.git"
